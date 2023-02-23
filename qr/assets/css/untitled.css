@@ -1,4 +1,14 @@
 p {
-  font-size: 20px;
+  font-size: 22px;
+}
+
+hr.star-light:after, hr.star-dark:after {
+  position: relative;
+  top: -0.8em;
+  display: inline-block;
+  padding: 0 .25em;
+  content: "\f005";
+  font-family: 'Font Awesome 5 Free';
+  font-size: 2em;
 }
 
